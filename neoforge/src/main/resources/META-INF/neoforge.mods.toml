@@ -1,0 +1,36 @@
+modLoader = "javafml"
+license = "LGPL V2.1"
+issueTrackerURL = "null/issues"
+
+[[mods]]
+modId = "waybackstone"
+version = "26.1.2.0"
+displayName = "WaybackStone"
+updateJSONURL = "https://updates.blamejared.com/get?n=waybackstone&gv=26.1.2&ml=neoforge"
+displayURL = "https://www.curseforge.com/minecraft/mc-mods/wayback-stone"
+logoFile = "logo_waybackstone.png"
+logoBlur = false
+credits = "This project is made possible with Patreon support from players like you. Thank you! lothrazar, techsquirrel, Keyana , Darkosto, Tobias Ward, noobanidus"
+authors = "Darkhax"
+description = "Adds a powerful charm that allows players to teleport back home!"
+
+[[mixins]]
+config = "waybackstone.common.mixins.json"
+
+[[mixins]]
+config = "waybackstone.neoforge.mixins.json"
+
+[[dependencies.waybackstone]]
+modId = "minecraft"
+type = "required"
+versionRange = "26.1"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.waybackstone]]
+modId = "neoforge"
+type = "required"
+versionRange = "[26.1.0.1-beta,)"
+ordering = "NONE"
+side = "BOTH"
+
