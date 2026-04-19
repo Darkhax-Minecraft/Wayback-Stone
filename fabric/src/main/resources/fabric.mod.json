@@ -12,19 +12,16 @@
     "lothrazar, techsquirrel, Keyana , Darkosto, Tobias Ward, noobanidus"
   ],
   "contact": {
-    "sources": "null",
-    "issues": "null/issues",
+    "sources": "https://github.com/Darkhax-Minecraft/Wayback-Stone",
+    "issues": "https://github.com/Darkhax-Minecraft/Wayback-Stone/issues",
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/wayback-stone"
   },
-  "license": "LGPL V2.1",
+  "license": "ARR",
   "icon": "logo_waybackstone.png",
   "environment": "*",
   "entrypoints": {
     "main": [
       "net.darkhax.waybackstone.fabric.WaybackStoneFabric"
-    ],
-    "client": [
-      "net.darkhax.waybackstone.fabric.WaybackStoneFabricClient"
     ]
   },
   "mixins": [

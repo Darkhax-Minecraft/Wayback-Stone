@@ -1,6 +1,6 @@
 modLoader = "javafml"
-license = "LGPL V2.1"
-issueTrackerURL = "null/issues"
+license = "ARR"
+issueTrackerURL = "https://github.com/Darkhax-Minecraft/Wayback-Stone/issues"
 
 [[mods]]
 modId = "waybackstone"
