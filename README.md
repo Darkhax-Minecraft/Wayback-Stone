@@ -3,7 +3,7 @@
 <!-- name-end -->
 
 <!-- description-start -->
-This is the official GitHub repo for the WaybackStone mod. Adds a powerful charm that allows players to teleport back home! You can download this mod from [CurseForge](https://www.curseforge.com/minecraft/mc-mods/wayback-stone) or [Modrinth](https://modrinth.com/mod/wayback-stone). Please report issues [here](null/issues).
+This is the official GitHub repo for the WaybackStone mod. Adds a powerful charm that allows players to teleport back home! You can download this mod from [CurseForge](https://www.curseforge.com/minecraft/mc-mods/wayback-stone) or [Modrinth](https://modrinth.com/mod/wayback-stone). Please report issues [here](https://github.com/Darkhax-Minecraft/Wayback-Stone/issues).
 <!-- description-end -->
 
 <!-- maven-start -->
@@ -34,7 +34,7 @@ dependencies {
 
 <!-- sponsor-start -->
 ## Sponsors
-[![](https://assets.blamejared.com/nodecraft/darkhax.jpg)](https://nodecraft.com/r/darkhax)
+[![](https://assets.blamejared.com/nodecraft/darkhax.jpg)](https://nodecraft.com/r/darkhax)    
 WaybackStone is proudly sponsored by Nodecraft! Play your favorite games with your friends using their high
 performance game servers! Use code **[DARKHAX](https://nodecraft.com/r/darkhax)** for 30% off your first
 month of service!
