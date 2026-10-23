@@ -44,7 +44,7 @@ public class WayBackStoneItem extends Item {
         return InteractionResultHolder.sidedSuccess(heldItem, level.isClientSide());
     }
 
-    private static boolean teleportToRespawnPoint(ServerPlayer player) {
+    static boolean teleportToRespawnPoint(ServerPlayer player) {
         final BlockPos respawnPos = player.getRespawnPosition();
         final ServerLevel respawnLevel = player.server.getLevel(player.getRespawnDimension());
         if (respawnLevel != null && respawnPos != null) {
@@ -59,7 +59,7 @@ public class WayBackStoneItem extends Item {
         return false;
     }
 
-    private static void teleportToWorldSpawn(ServerPlayer player) {
+    static void teleportToWorldSpawn(ServerPlayer player) {
         final ServerLevel level = player.server.overworld();
         final BlockPos respawnPos = level.getSharedSpawnPos();
         player.teleportTo(level, respawnPos.getX() + 0.5f, respawnPos.getY() + 0.1f, respawnPos.getZ() + 0.5f, player.getYRot(), player.getXRot());

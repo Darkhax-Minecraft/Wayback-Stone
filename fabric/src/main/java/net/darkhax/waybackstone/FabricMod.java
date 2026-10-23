@@ -7,5 +7,6 @@ public class FabricMod implements ModInitializer {
     @Override
     public void onInitialize() {
         new WayBackStoneMod();
+        ModNetwork.register();
     }
 }

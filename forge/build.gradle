@@ -75,6 +75,8 @@ dependencies {
     compileOnly fg.deobf("me.shedaniel:RoughlyEnoughItems-api-forge:${rei_version}")
     compileOnly fg.deobf("dev.architectury:architectury-forge:8.1.87") // It doesn't actually matter which version we use as this is compileOnly
     compileOnly fg.deobf("me.shedaniel.cloth:cloth-config-forge:10.0.96") // It doesn't actually matter which version we use as this is compileOnly
+    compileOnly fg.deobf("curse.maven:curios-309927:6418456")
+    runtimeOnly fg.deobf("curse.maven:curios-309927:6418456")
     compileOnly fg.deobf("curse.maven:top-245211:${top_version}")
 
     compileOnly project(':common')
